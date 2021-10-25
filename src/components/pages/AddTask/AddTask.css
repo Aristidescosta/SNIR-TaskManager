@@ -1,0 +1,69 @@
+.title-addTask-container{
+    display: flex;
+    position: relative;
+    top: 120px;
+    flex-direction: column;
+}
+
+.container-add-task .verify{
+    display: none;
+}
+
+.title-addTask{
+    display: flex;
+    gap: 20px;
+}
+
+.border-span{
+    width: 56px;
+    height: 56px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+    border-radius: 50%;
+    background-color: #363041;
+}
+
+.title-addTask p{
+    font-weight: bold;
+    font-size: 32px;
+
+    color: #fff;
+}
+
+.title-addTask small{
+    font-size: 18px;
+}
+
+.title-addTask-container form{
+    width: 603px;
+    top: 50px;
+}
+
+.title-addTask-container form div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title-addTask-container form input{
+    padding-left: 20px;
+}
+
+.title-addTask-container form button{
+    width: 100%;
+}
+
+.title-addTask-container form button:last-child{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 660px){
+    .title-addTask-container form{
+        width: 318px;
+    }   
+}

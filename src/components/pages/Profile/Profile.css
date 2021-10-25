@@ -1,0 +1,90 @@
+.container form{
+    width: 611px;
+    font-weight: 500px;
+}
+
+.profile-text,
+.profile-image,
+.profile-information{
+    display: flex;
+    gap: 20px;
+}
+
+.profile-text div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.profile-text p{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+
+    color: #fff;
+}
+
+.profile-text small{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.profile-information{
+    justify-content: space-between;
+}
+
+.profile-image img{
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+ 
+    flex-direction: column;
+}
+
+.profile-image p{
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.profile-information .profile-user{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.profile-user p{
+    font-size: 18px;
+}
+
+.profile-icon{
+    font-size: 150px;
+}
+
+.button-center{
+    display: flex;
+    justify-content: center;
+    
+    position: relative;
+    top: 20px;
+}
+
+.button-center .btn{
+    width: 381px;
+}
+
+@media screen and (max-width: 690px){
+    .container form{
+        width: 305.5px;
+    }
+}

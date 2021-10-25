@@ -1,0 +1,41 @@
+:root{
+    --primary: #b4acf9;
+}
+
+.btn{
+    width: 136px;
+    height: 50px;
+
+    cursor: pointer;
+    border-radius: .25rem;
+    outline: none;
+
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+}
+
+.btn--primary{
+    background-color: var(--primary);
+    color: black;
+    border: 1px solid var(--primary);
+}
+
+.btn--outline{
+    width: 136px;
+    height: 50px;
+    background-color: #363041;
+}
+
+.btn-large{
+    width: 603px;
+    height: 60px;
+}

@@ -1,0 +1,99 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 381px;
+    top: 50px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+}
+
+.input-group {
+    display: flex;
+
+    padding: .3rem;
+}
+
+.input-group-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 64px;
+}
+
+.group1{
+    background-color: #B4ACF9;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.group2{
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-control{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+input,
+input[type="button"]{
+    background: #363041;
+    border-width: 0;
+
+    font-size: 24px;
+    font-weight: bold;
+    text-align: initial;
+
+    outline: none;
+}
+
+input[type="button"]{
+    cursor: pointer;
+    
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+input{
+    height: 60px;
+}
+
+
+
+.fa-facebook,
+.fa-google{
+    color: #2E2938;
+}
+
+
+.group2 .input-group-text{
+    width: 86px;
+}
+
+.input-group .btn-mobile{
+    position: relative;
+    left: 0;
+}
+
+.input-group .btn{
+    width: 370px;
+    justify-content: center;
+}
+
+.center{
+    justify-content: center;
+}

@@ -1,0 +1,173 @@
+.container-task .group1{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 1004px;
+    position: relative;
+    top: 100px;
+}
+
+.title p{
+    color: #fff;
+}
+
+.title small{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.container-task input[type="text"]{
+    width: 100%;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 12px;
+    padding-left: 74px;
+}
+
+.input-group ~ p,
+.taskList p{
+    color: #fff;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+}
+
+.tasks{
+    background: #363041;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    font-size: 18px;
+    list-style: none;
+}
+
+.tasks span{
+    color: #FFF;
+}
+
+.tasks input[type="checkbox"]{
+    width: 28px;
+    height: 28px;
+
+    display: flex;
+    position: relative;
+    top: 25px;
+    left: 30px;
+}
+
+.tasks .trash{
+    display: flex;
+    cursor: pointer;
+    width: 15px;
+    float: right;
+    height: 18.75px;
+    position: relative;
+    right: 20px;
+}
+
+.tasks .trash i:hover {
+    color: #ff0000;
+    cursor: pointer;
+}
+
+.listInfor{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    position: relative;
+    left: 70px;
+}
+
+.status.active{
+    text-decoration: line-through;
+}
+
+.tasks .day{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #B4ACF9;  
+}
+
+.container-task .btn{
+    display: none;
+}
+
+
+/* Mobile */
+/* @media screen and (max-width: 960px){
+    .title-container{
+        gap: 10px;
+    }
+    
+    .container-task .btn{
+        display: block;
+        width: 60px;
+        height: 60px;
+        border-radius: 12px;
+        font-size: 30px;
+        font-weight: bold;
+        position: absolute;
+        bottom: 50px;
+    }   
+} */
+@media screen and (max-width: 1124px){
+    form{
+        width: 818px;
+    } 
+    
+}
+
+@media screen and (max-width: 990px){
+    form{
+        width: 618px;
+    } 
+    
+}
+
+@media screen and (max-width: 710px){
+    form{
+        width: 318px;
+    }
+
+    .container-task .btn{
+        display: block;
+        width: 60px;
+        height: 60px;
+        border-radius: 12px;
+        font-size: 30px;
+        font-weight: bold;
+        position: relative;
+        left: 40%;
+        bottom: 10px;
+        justify-content: flex-end;
+    } 
+
+    .listInfor{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .title{
+        position: relative;
+        top: 30px;
+    }
+
+    .title p{
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
