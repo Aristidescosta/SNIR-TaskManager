@@ -18,8 +18,8 @@
 - Node js
 
 ### `npm install`:
-- De um `npm install` na raiz do projecto
+- De um `npm install` na raiz do projecto para inicializar o projecto
 
 ### `npm start`:
-- De `npm start` na raiz do projecto
+- De `npm start` na raiz do projecto para inicializar o projecto
 - Vá até http://localhost:3000/ para acessar o aplicativo
