@@ -13,7 +13,7 @@
 
 ### Tecnologias utilizadas:
 - React 
-- JavaScrips
+- JavaScripts
 - Css
 - Node js
 
